@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@100&display=swap');
+
+body {
+  background-color: #6f23ff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px 100px 50px 100px;
+  color:white;
+  text-align: center;
+}
+h1 {
+  
+  font-family: 'Domine', serif;
+}
+h2 {
+  padding-top: 40px;
+  border-top: 0.5px solid white;
+  
+}
+#bio {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-size: medium;
+}
+
+#bio a {
+  color: aqua;
+  
+}
+
+#education {
+  color: rgb(252, 177, 177);
+}
+#projects {
+  color: red;
+}
+#social {
+  color:green;
+}
+ul {
+  display: inline-block;
+}
+ol {
+  display: inline-block;
+}
+li {
+  color:black;
+  font-size: large;
+  font-style: normal;
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+table {
+  color: yellowgreen;
+  border: thin inset #FFFFFF;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+}
+tr {
+  background-color: aqua;
+}
+th {
+  color: red;
+  font-size: large;
+  font-style: normal;
+  font-weight: 100;
+  font-family: 'Times New Roman', Times, serif ;
+}
+td {
+  color:black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  font-weight: 200;
+}
+.social-media-links{  
+  color:#ffd540;
+  text-align: center;
+  margin: 0px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: none;
+  padding: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}  
+#social-media-links:hover{
+color: #ffd540;
+background: black;
+box-shadow: 5px 10px 18px rgb(20, 20, 20);
+}
